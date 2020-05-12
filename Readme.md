@@ -1,9 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Михаил Свита](https://up.htmlacademy.ru/htmlcss/28/user/1478043).
-* Наставник: 
-[Дмитрий
-Мирошниченко] (https://htmlacademy.ru/profile/id591417).
+* Наставник: [Дмитрий Мирошниченко](https://htmlacademy.ru/profile/id591417).
 
 ---
 
