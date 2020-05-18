@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Девайс</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог продукции</title>
 </head>
 
 <body>
+
     <header>
 
         <div class="header__logo"> <img src="#" alt="Logo-header"></div>
@@ -32,31 +33,53 @@
 
     </header>
     <main>
+        <section>
+            <h1> Моноподы для селфи </h1>
+            <a href="index.html">Главная</a>
+            <a href="">Каталог товаров</a>
+            <a href="">Моноподы для селфи</a>
+        </section>
 
+        <section class="filters">
+            <hr>
+            <span>Цвет</span>
+            <ul>
+                <li><input type="checkbox" name="black"> Черный</li>
+                <li><input type="checkbox" name="white">Белый</li>
+                <li><input type="checkbox" name="blue">Синий</li>
+                <li><input type="checkbox" name="red">Красный</li>
+                <li><input type="checkbox" name="pink">Розовый</li>
+            </ul>
+            <hr>
+            <span>Bluetooth</span>
+            <ul>
+                <li> <input type="radio" name="bluetoth-yes" id="bluetoth-yes"> Есть </li>
+                <li><input type="radio" name="bluetooth-no" id="bluetooth-no"> Нет</li>
+            </ul>
+            <button type="submit"> Показать</button>
+        </section>
+        <section class="production">
+            <article class="production__card">
+                <img class="production__img" src="#" alt="selfie-stick">
+                <h2>Любительская селфи-палка <span class="price"> 500 &#8381 </span></h2>
+            </article>
+            <article class="production__card">
+                <img class="production__img" src="#" alt="selfie-stick">
+                <h2>Профессиональная селфи-палка <span class="price"> 1500 &#8381 </span></h2>
+            </article>
+            <article class="production__card">
+                <img class="production__img" src="#" alt="selfie-stick">
+                <h2>Непотопляемая селфи-палка <span class="price"> 2500 &#8381 </span></h2>
+            </article>
+            <article class="production__card">
+                <img class="production__img" src="#" alt="selfie-stick">
+                <h2>Селфи-палка "Следуй за мной" <span class="price"> 500 &#8381 </span></h2>
+            </article>
+
+        </section>
     </main>
 
-    <section>
-        <div class="container">
-            <section class="aboutus">
-                <hr>
-                <h2> О нас</h2>
-                <p>Огромный выбор гаджетов не оставит равнодушным гика который есть в каждом из нас.</p>
-                <p>Мы можем доставить ваш товар в самые отдаленные точки России! Device работает со многими транспортными компаниями</p>
-                <ul>
-                    <li>Деловые линии</li>
-                    <li>Автотрейдинг</li>
-                    <li>ЖелДорЭкспедиия</li>
-                </ul>
-                <button> Подробнее о нас</button>
-            </section>
-            <section class="contacts">
-                <hr>
-                <h2>Контакты</h2>
-                <p>Вы можете забрать товар сами, заехав в наш офис. Заодно вы сможете проверить работоспособность покупки. Всякое бывает</p>
-                <button> Подробнее о нас</button>
-            </section>
-        </div>
-    </section>
+
     <footer>
         <div class="container">
             <div class="adress">
